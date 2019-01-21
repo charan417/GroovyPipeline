@@ -12,7 +12,7 @@ sh 'mvn package'
 }
 
 
-stage (archive the artifacts')
+stage ('archive the artifacts')
 {
 archive 'target/*.jar'
 }
